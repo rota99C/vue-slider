@@ -29,6 +29,26 @@ const app = new Vue({
             }
         ],
         counter: 0
+    },
+    methods: {
+        goUp() {
+            if (this.counter == 0) {
+                this.counter = 4
+            }
+            else {
+                this.counter--;
+            }
+        },
+        goDown() {
+            // console.log("click in basso");
+            if (this.counter == 4) {
+                this.counter = 0
+            }
+            else {
+                this.counter++;
+            }
+
+        }
     }
 
 
