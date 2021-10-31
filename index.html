@@ -25,7 +25,8 @@
                         <button @click="goUp" class="up"><i class="fas
                                 fa-chevron-up"></i></button>
                         <li v-for="slide in slides">
-                            <img :src="slide.image" alt="">
+                            <img :class="{'highlight': (slides[counter].image
+                                === slide.image)}" :src="slide.image" alt="">
                         </li>
                         <button @click="goDown" class="down"><i class="fas
                                 fa-chevron-down"></i></button>

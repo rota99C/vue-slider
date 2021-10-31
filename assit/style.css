@@ -43,6 +43,9 @@ img {
   position: relative;
 }
 
+.carousel img {
+  filter: brightness(50%);
+}
 .carousel ul li {
   list-style: none;
   height: 105.2px;
@@ -59,4 +62,9 @@ img {
 
 .down {
   bottom: 0px;
+}
+
+.highlight {
+  border: 2px solid white;
+  filter: brightness(100%) !important;
 }
