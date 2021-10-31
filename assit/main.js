@@ -3,35 +3,34 @@ const app = new Vue({
     data: {
         slides: [
             {
-                image: 'img/01.jpg',
+                image: './assit/img/01.jpg',
                 title: 'Svezia',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.'
             },
             {
-                image: 'img/02.jpg',
+                image: './assit/img/02.jpg',
                 title: 'Svizzera',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.'
             },
             {
-                image: 'img/03.jpg',
+                image: './assit/img/03.jpg',
                 title: 'Gran Bretagna',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.'
             },
             {
-                image: 'img/04.jpg',
+                image: './assit/img/04.jpg',
                 title: 'Germania',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.'
             },
             {
-                image: 'img/05.jpg',
+                image: './assit/img/05.jpg',
                 title: 'Paradise',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.'
             }
-
-
-        ]
+        ],
+        counter: 0
     }
-})
+});
 
 
 
